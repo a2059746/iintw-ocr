@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "semi": [2, "never"],
+    "arrow-body-style": ["error", "always"],
+    "comma-dangle": ["error", "never"],
+    "no-console": 0,
+    "no-unused-vars": "off",
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
+    "no-restricted-globals": "off",
+    "linebreak-style": "off",
+    "prefer-destructuring": "off",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off",
+    "no-continue": "off"
+  }
+}
